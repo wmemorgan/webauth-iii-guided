@@ -1,0 +1,42 @@
+### GET (Basic)
+http://localhost:5000
+
+### GET Users (Protected Route)
+http://localhost:5000/api/users
+
+### GET Users (by ID)
+http://localhost:5000/api/users/1
+
+### (Register) POST 
+POST http://localhost:5000/api/auth/register HTTP/1.1
+content-type: application/json
+
+{
+  "username": "Mike",
+  "password": "pass"
+}
+
+### (Login) POST 
+POST http://localhost:5000/api/auth/login HTTP/1.1
+content-type: application/json
+
+{
+  "username": "Mike",
+  "password": "pass"
+}
+
+### (Logout) GET 
+http://localhost:5000/api/auth/logout
+
+### (User Update) PUT 
+PUT http://localhost:5000/api/users/12 HTTP/1.1
+content-type: application/json
+
+{
+  "name": "My Test Project #1",
+  "description": "Test project details",
+  "is_complete": false
+}
+
+### DELETE (Users)
+DELETE http://localhost:5000/api/users/6
