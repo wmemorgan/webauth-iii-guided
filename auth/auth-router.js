@@ -7,7 +7,8 @@ const Users = require('../users/users-model.js')
 
 function generateToken(user) {
   return jwt.sign({
-    userId: user.id
+    userId: user.id,
+    userRole: 'student',
   }, secrets.jwt, {
       expiresIn: '1h'
   })

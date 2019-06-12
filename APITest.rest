@@ -3,7 +3,7 @@ http://localhost:5000
 
 ### GET Users (Protected Route)
 GET http://localhost:5000/api/users HTTP/1.1
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTU2MDMxODIxMywiZXhwIjoxNTYwMzE4MjMzfQ._Zlr00uduBLiXFtlSy_84iLAdPMm5Luns49g3ry0nSc
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInVzZXJSb2xlIjoic3R1ZGVudCIsImlhdCI6MTU2MDMxODk3MywiZXhwIjoxNTYwMzIyNTczfQ.3yMQ2b7slCESiIITqqm6na5gHEPwCid2ZqJqZ8QzaQc
 
 ### GET Users (by ID)
 http://localhost:5000/api/users/1
